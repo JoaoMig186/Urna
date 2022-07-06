@@ -9,6 +9,7 @@ O arquivo index.html é o arquivo principal. O arquivo styleIndex.css é o arqui
 A pasta successfulPage contém o arquivo sucesso.html. Esse arquivo é a página em que o usuário é redirecionado após confirmar o voto. O arquivo styleSuccessfulPage.css é a estilização da página sucesso.
 
 A pasta sound contém o som que a urna emite (urna.mp3).
+
 ==============================================================
 
 <---- ! Como funciona a urna ! ---->
