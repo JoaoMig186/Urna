@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel ="stylesheet" type="text/css" href="styleSuccessfulPage.css">
+    <title>Urna Eleitoral</title>
+
+</head>
+<body>
+    <conteiner id="urna">
+
+        <div id="imgUrna">
+            
+        </div>
+        <form name="UrnaF" id="alg">
+        <input type="text" id="visor" onkeypress="return event.charCode >= 48 && event.charCode <= 57" maxlength="2">
+        <div id="tecladoUrna"> 
+
+            <input type="button" id="botN" value="7" onclick = "tecla( value );">
+            <input type="button" id="botN" value="8" onclick = "tecla( value );">
+            <input type="button" id="botN" value="9" onclick = "tecla( value );"><Br>
+            <input type="button" id="botN" value="4" onclick = "tecla( value );">
+            <input type="button" id="botN" value="5" onclick = "tecla( value );">
+            <input type="button" id="botN" value="6" onclick = "tecla( value );"><Br>
+            <input type="button" id="botN" value="1" onclick = "tecla( value );">
+            <input type="button" id="botN" value="2" onclick = "tecla( value );">
+            <input type="button" id="botN" value="3" onclick = "tecla( value );"><br>
+            <input type="button" id="botA" value="CORRIGE" onclick = "limp();">
+            <input type="button" id="botN" value="0" onclick = "tecla( value );">
+            <input type="submit" id="botV" value="CONFIRMA">
+
+        </div>
+        </form>
+    </conteiner>
+
+    <a href="../index.html"><button id="retornar">RETORNAR</button></a>
+
+</body>
+</html>
